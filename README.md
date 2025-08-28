@@ -18,3 +18,6 @@ It contains two main implementations:
 - Performance gains on large vector and matrix sizes.
 
 - Concrete illustration of parallel programming with CUDA.
+
+
+Project developed as part of learning CUDA and parallel computing.
