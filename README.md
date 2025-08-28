@@ -12,6 +12,6 @@ It contains two main implementations:
 
 📊 Results
 
-Performance gains on large vector and matrix sizes.
+- Performance gains on large vector and matrix sizes.
 
-Concrete illustration of parallel programming with CUDA.
+- Concrete illustration of parallel programming with CUDA.
