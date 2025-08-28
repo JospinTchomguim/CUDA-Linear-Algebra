@@ -1,23 +1,23 @@
 # CUDA-Linear-Algebra
-CUDA implementation of vector addition and matrix multiplication to harness the power of parallel computing on GPUs
+CUDA implementation of vector addition and matrix multiplication to harness the power of parallel computing on GPUs 
 
 
-This project demonstrates the use of CUDA to accelerate computations on GPUs.
-It contains two main implementations:
+> **Goal: Harness the power of GPUs with CUDA!**
+---
 
-- Vector addition: each element is added in parallel on the GPU.
-  
-- Matrix multiplication: each thread calculates one element of the resulting matrix.
+## 📌 Overview
+
+This project demonstrates the use of **CUDA** to offload heavy computations to the **GPU**, enabling significant performance improvements over traditional CPU implementations.
+
+### 🔹 Implemented Features
+- **Vector Addition** → Each element of two vectors is added **in parallel** on the GPU.
+- **Matrix Multiplication** → Each GPU thread computes **one element** of the resulting matrix.
+
+---
+
+## ⚡ Why CUDA?
+- Massive Parallelism → Thousands of threads execute simultaneously.
+- Accelerated Execution → Ideal for large vectors and matrices.
+- Practical relevance → Foundations of deep learning, simulations, and scientific computing.
 
 
-⚡ Computations are performed directly on the GPU to speed up execution compared to a sequential CPU version.
-
-
-📊 Results
-
-- Performance gains on large vector and matrix sizes.
-
-- Concrete illustration of parallel programming with CUDA.
-
-
-Project developed as part of learning CUDA and parallel computing.
